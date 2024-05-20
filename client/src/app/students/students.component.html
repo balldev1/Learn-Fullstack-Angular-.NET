@@ -1,1 +1,5 @@
-<p>students works!</p>
+@for (item of (students$ | async ); track item) {
+  <span>
+    {{item.name}}
+  </span>
+}
