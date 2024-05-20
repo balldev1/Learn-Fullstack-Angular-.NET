@@ -10,5 +10,6 @@ namespace RestSample.Data
 
         }
         public DbSet<Student> Students { get; set; }
+
     }
 }

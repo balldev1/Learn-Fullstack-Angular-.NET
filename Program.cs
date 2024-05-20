@@ -4,8 +4,8 @@ using SQLitePCL;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//SQLite
 Batteries.Init();
-
 
 // db
 builder.Services.AddDbContext<AppDbContext>(options=>options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
