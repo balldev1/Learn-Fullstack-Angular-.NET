@@ -43,7 +43,7 @@ namespace RestSample.Controllers
 
             if(result > 0)
             {
-                return Ok("add student success");
+                return Ok(student);
             }
 
             return BadRequest();
@@ -69,9 +69,9 @@ namespace RestSample.Controllers
 
             var result = await _context.SaveChangesAsync();
             if(result > 0)
-                return Ok("Student Deleted");
+                return Ok();
                 
-            return BadRequest("Unable to delted student");
+            return BadRequest();
         }
 
         [HttpPut("{id:int}")]
@@ -97,10 +97,10 @@ namespace RestSample.Controllers
 
             if(result > 0)
             {
-                return Ok("Student Sucessfully updated");
+                return Ok();
             }
 
-            return BadRequest("Unable to updated data");
+            return BadRequest();
         }
     }
 }

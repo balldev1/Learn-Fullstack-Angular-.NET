@@ -8,8 +8,18 @@ import {Student} from "../types/student";
 })
 export class StudentsService {
 
+  apiUrl = "http://localhost:5187/api/students"
+
   constructor(private http:HttpClient) { }
 
-  getStudents = ():Observable<Student[]> =>
-    this.http.get<Student[]>("http://localhost:5187/api/students/")
+  getStudents = ():Observable<Student[]> => this.http.get<Student[]>(this.apiUrl);
+  // post => (get.data)
+  addStudents=(data: Student) => this.http.post(this.apiUrl, data);
+  // stundent(:id)
+  getStudentMethod=(id:number):Observable<Student>=>this.http.get<Student>(this.apiUrl+"/"+id);
+
+  deleteStudent=(id:number)=>this.http.delete<Student>(this.apiUrl+"/"+id);
+
+  editStudent=(id:number,data:Student)=>this.http.put<Student>(this.apiUrl+"/"+id, data);
+
 }

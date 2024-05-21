@@ -7,6 +7,12 @@ export const routes: Routes = [
     path: "students",
     component:StudentsComponent
   },
+  // Add stundent
+  {
+    path:"student/form",
+    component:StudentFormComponent
+  },
+  // stundent:id
   {
     path:"students/:id",
     component:StudentFormComponent
