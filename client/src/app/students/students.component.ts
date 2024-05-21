@@ -2,13 +2,14 @@ import {Component, inject, OnInit} from '@angular/core';
 import {Observable} from "rxjs";
 import {Student} from "../types/student";
 import {StudentsService} from "../services/students.service";
-import {AsyncPipe} from "@angular/common";
+import {AsyncPipe, CommonModule} from "@angular/common";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-students',
   standalone: true,
   // ทำหน้าที่ subscribe ไปยัง Observable หรือ Promise
-  imports: [AsyncPipe],
+  imports: [AsyncPipe,CommonModule,RouterLink],
   templateUrl: './students.component.html',
   styleUrl: './students.component.css'
 })
