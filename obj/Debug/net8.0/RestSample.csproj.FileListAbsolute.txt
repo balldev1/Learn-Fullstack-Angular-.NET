@@ -135,3 +135,5 @@
 /Users/admin/Desktop/RestSample/bin/Debug/net8.0/client/tsconfig.app.json
 /Users/admin/Desktop/RestSample/bin/Debug/net8.0/client/tsconfig.json
 /Users/admin/Desktop/RestSample/bin/Debug/net8.0/client/tsconfig.spec.json
+/Users/admin/Desktop/RestSample/bin/Debug/net8.0/package-lock.json
+/Users/admin/Desktop/RestSample/bin/Debug/net8.0/package.json
