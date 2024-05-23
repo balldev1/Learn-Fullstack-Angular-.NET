@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1402af50-b63d-479b-9970-ee4219a016fc" name="Changes" comment="1.27 ngOnDestroy">
+      <change beforePath="$PROJECT_DIR$/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/StudentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/RestSample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/RestSample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/RestSample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/RestSample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/services/students.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/services/students.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/students/student-form/student-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/students/student-form/student-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/students/student-form/student-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/students/student-form/student-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/students/students.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/students/students.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/students/students.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/students/students.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/RestSample.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/RestSample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/RestSample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/RestSample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/RestSample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stundent.db" beforeDir="false" afterPath="$PROJECT_DIR$/stundent.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.27 ngOnDestroy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.27 ngOnDestroy" />
+  </component>
+</project>
